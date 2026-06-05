@@ -2,9 +2,15 @@
   padding: 0;
 }
 
-.hero-img {
+/* .hero-img {
   height: 40rem;
   object-fit: cover;
+} */
+
+.hero-img {
+  min-height: 40rem;
+  object-fit: cover;
+  width: 100%;
 }
 
 .card1 {
@@ -60,17 +66,28 @@ a {
   width: 5rem;
 }
 
-.les-cartes {
+/* .les-cartes {
   width: 60rem;
   height: 20rem;
+} */
+
+.les-cartes {
+  width: 100%;
+  max-width: 60rem;
+  min-height: 20rem;
 }
 
 .image {
   height: 20rem;
 }
 
-.carte {
+/* .carte {
   width: 40rem;
+} */
+
+.carte {
+  width: 100%;
+  max-width: 40rem;
 }
 
 .vert {
@@ -127,8 +144,13 @@ footer button {
   background: green;
 }
 
-footer .input {
+/* footer .input {
   width: 40rem;
+} */
+
+footer .input {
+  width: 100%;
+  max-width: 40rem;
 }
 
 footer a {
@@ -144,13 +166,24 @@ footer .agritech {
   width: 3rem;
 }
 
-.grandeTaille {
+/* .grandeTaille {
   height: 75vh;
+} */
+
+.grandeTaille {
+  min-height: 75vh;
+  height: auto;
 }
 
 .positionAbsolue {
   top: 30%;
 
+}
+
+/* Adding */
+
+.wraper {
+  width: 100%;
 }
 
 .grandCaroussel {
@@ -285,7 +318,7 @@ button a {
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .lesimage {
     flex-wrap: wrap;
   }
@@ -404,10 +437,107 @@ padding: 1rem !important;
   .footerSection1 .input {
     width: 30%;
   }
+} */
+
+
+
+@media (max-width: 768px) {
+
+  .lesimage {
+    flex-wrap: wrap;
+    gap: 2rem !important;
+    justify-content: center;
+  }
+
+  .lesimage img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .wraper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexWrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .largeCaroussel,
+  .lecaroussel {
+    width: 100%;
+  }
+
+  .carte {
+    width: 95%;
+    max-width: 40rem;
+    margin-top: 1rem;
+  }
+
+  .les-cartes {
+    width: 95%;
+  }
+
+  .bgchange {
+    background: white !important;
+  }
+
+  .grandCaroussel {
+    height: auto;
+    min-height: 40vh;
+  }
+
+  .grandeTaille {
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .positionAbsolue {
+    top: 50%;
+  }
+
+  .positionAbsolue .row .py-5 {
+    padding: 0 !important;
+  }
+
+  .leave img {
+    display: none;
+  }
+
+  .leave .cover {
+    opacity: 1;
+    max-height: 300px;
+    margin: 0 !important;
+  }
+
+  .card-img-overlay {
+    padding: 1rem !important;
+    border: solid 0.5px;
+    overflow: hidden;
+  }
+
+  .cardOverlay{
+    padding: 0 !important;
+  }
+
+  .footerSection {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .footerSection1 {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .input-group {
+    width: 100% !important;
+  }
 }
 
 
-@media(max-width: 425px) {
+/* @media(max-width: 425px) {
   footer .footerSection1 input {
     display: none;
   }
@@ -440,6 +570,49 @@ height: 50% ;
   border: none;
   height: 66.5%;
 }
+} */
+
+
+@media (max-width: 425px) {
+
+  footer .footerSection1 input {
+    display: none;
+  }
+
+  footer .footerSection1 .input-group-text {
+    background: transparent;
+    border: none;
+  }
+
+  .positionAbsolue {
+    top: 23%;
+  }
+
+  .positionAbsolue .row .col {
+    height: auto;
+  }
+
+  .grandeTaille {
+    min-height: 110vh;
+  }
+
+  .grandCaroussel {
+    height: auto;
+    min-height: 50vh;
+    border: none;
+    padding: 0 !important;
+  }
+
+  .carte,
+  .les-cartes {
+    width: 100%;
+  }
+
+  .container,
+  .container-fluid,
+  .container-lg {
+    overflow-x: hidden;
+  }
 }
 
 @media(max-width: 320px) {
