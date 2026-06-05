@@ -12,7 +12,9 @@
   object-fit: cover;
   width: 100%;
 }
-
+body{
+  overflow-x: hidden;
+}
 .card1 {
   height: 50vh;
 }
