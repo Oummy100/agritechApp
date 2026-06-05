@@ -2,19 +2,12 @@
   padding: 0;
 }
 
-/* .hero-img {
-  height: 40rem;
-  object-fit: cover;
-} */
-
 .hero-img {
   height: 35rem;
   object-fit: cover;
   width: 100%;
 }
-/* body{
-  overflow-x: hidden;
-} */
+
 .card1 {
   height: 50vh;
 }
@@ -60,32 +53,23 @@ a {
 }
 
 
-.pouce1 {
+/* .pouce1 {
   width: 5rem;
-}
-
-.home1 {
-  width: 5rem;
-}
-
-/* .les-cartes {
-  width: 60rem;
-  height: 20rem;
 } */
 
-.les-cartes {
+/* .home1 {
+  width: 5rem;
+} */
+
+/* .les-cartes {
   width: 100%;
   max-width: 60rem;
   min-height: 20rem;
-}
+} */
 
 .image {
   height: 20rem;
 }
-
-/* .carte {
-  width: 40rem;
-} */
 
 .carte {
   width: 100%;
@@ -100,7 +84,7 @@ a {
   color: rgb(6, 139, 73);
 }
 
-.clair {
+/* .clair {
   background: rgb(6, 139, 73);
 }
 
@@ -108,9 +92,9 @@ a {
   height: 20rem;
   object-fit: cover;
   width: 65vw;
-}
+} */
 
-.cover {
+/* .cover {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
@@ -120,7 +104,7 @@ a {
 .overflow-hidden:hover .cover {
   max-height: 500px;
   opacity: 1;
-}
+} */
 
 .elargissement li i {
   display: inline-block;
@@ -131,11 +115,16 @@ a {
   transform: translateX(7px);
 }
 
+.input-group{
+  width: 100%;
+  max-width: 25rem;
+}
 
+/* 
 .lesimage img {
   width: 15rem;
   height: 15rem;
-}
+} */
 
 footer {
   padding-top: 2rem;
@@ -145,10 +134,6 @@ footer {
 footer button {
   background: green;
 }
-
-/* footer .input {
-  width: 40rem;
-} */
 
 footer .input {
   width: 100%;
@@ -169,10 +154,6 @@ footer .agritech {
 }
 
 /* .grandeTaille {
-  height: 75vh;
-} */
-
-.grandeTaille {
   min-height: 75vh;
   height: auto;
 }
@@ -180,11 +161,11 @@ footer .agritech {
 .positionAbsolue {
   top: 30%;
 
-}
+} */
 
 /* Adding */
 
-.wraper {
+/* .wraper {
   width: 100%;
 }
 
@@ -196,7 +177,7 @@ footer .agritech {
 
 .petitCaroussel {
   background: rgba(79, 133, 106, 0.301);
-}
+} */
 
 button a {
   text-decoration: none;
@@ -208,14 +189,26 @@ button a {
 }
 
 @media (max-width: 1440px) {
+/* .hero-img {
+  height: 27rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.grandCaroussel {
+  
+  height: 27rem !important;
+  background: rgba(79, 133, 106, 0.301);
+}
+
    .positionAbsolue {
-    top: 45%;
-  }
+    top: 40%;
+  } */
 
 }
 
 @media (max-width: 1024px) {
-  body {
+  /* body {
     width: 100%;
   }
 
@@ -271,7 +264,7 @@ button a {
 
   .positionAbsolue img {
     object-fit: cover;
-  }
+  } */
 
   nav p {
     font-size: medium;
@@ -315,141 +308,19 @@ button a {
     gap: 0;
   }
 
-  .lesimage {
+  /* .lesimage {
     margin-left: 2rem;
     margin-right: 2rem;
   }
 
       .card-img-overlay:hover .py-5{
         padding: 4% !important;
-    }
+    } */
 }
+
 
 
 /* @media (max-width: 768px) {
-  .lesimage {
-    flex-wrap: wrap;
-  }
-
-  .wraper {
-    flex-wrap: wrap;
-  }
-
-  .largeCaroussel {
-    width: 100%;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
-  .lecaroussel {
-    width: 100%;
-  }
-
-  .grandCaroussel {
-    height: 40vh;
-  }
-
-  .grandeTaille img {
-    height: 45rem;
-  }
-
-  .grandeTaille {
-    height: 100vh;
-  }
-
-
-  .positionAbsolue {
-    top: 50%;
-  }
-
-
-  .positionAbsolue img {
-    object-fit: cover;
-  }
-
-  .carte {
-    width: 90%;
-    height: 35rem;
-    margin-top: 1rem;
-  }
-
-  .bgchange{
-    background: white !important;
-  }
-
-  .carte .card {
-    margin-bottom: 1rem;
-  }
-
-  .carte img {
-    object-fit: cover;
-  }
-
-  .margin {
-    margin-left: 2rem;
-  }
-
-  .flexWrap {
-    flex-wrap: wrap;
-  }
-
-   .leave img{
-    display: none;
-    
-  }
-
-   .leave .card-img-overlay {
-    position: static;
-  }
-.card-img-overlay {
-  border: solid 0.5px;
-  overflow: hidden;
-}
-
-.positionAbsolue .row .py-5{
-padding: 0 !important;
-}
-
- 
-  .leave .cover {
-    opacity: 1;
-    max-height: 300px;
-    margin: 0 !important;
-  }
-
-  .card-img-overlay {
-padding: 1rem !important;
-    }
-.grandCaroussel{
-  padding: 0 !important;
-  border: none;
-  height: 73%;
-}
-
-  .leave .card-img-overlay > div {
-    margin: 0 !important;
-    overflow: hidden;
-  }
-
-  .footerSection {
-    width: 100%;
-    flex-wrap: wrap;
-
-  }
-
-  .footerSection1 {
-    width: 100%;
-
-  }
-
-  .footerSection1 .input {
-    width: 30%;
-  }
-} */
-
-
-
-@media (max-width: 768px) {
 
   .lesimage {
     flex-wrap: wrap;
@@ -529,7 +400,7 @@ padding: 1rem !important;
     padding: 1rem !important;
     border: solid 0.5px;
     overflow: hidden;
-  }
+  } */
 
   .footerSection {
     width: 100%;
@@ -555,43 +426,6 @@ padding: 1rem !important;
       margin-left: 1rem !important;
       margin-right:   1rem !important;
     }
-}
-
-
-/* @media(max-width: 425px) {
-  footer .footerSection1 input {
-    display: none;
-  }
-
-  footer .footerSection1 .input-group-text {
-    background: transparent;
-    border: none;
-  }
-
-  .positionAbsolue {
-    top: 23%;
-   
-  }
-
-  .grandeTaille {
-    height: 150vh;
-  }
-
- .positionAbsolue .row .col{
-height: 50% ;
-  }
-
-  .grandeTaille{
-    height: 110vh;
-  }
-
-
-  .grandCaroussel{
-  padding: 0 !important;
-  border: none;
-  height: 66.5%;
-}
-} */
 
 
 @media (max-width: 425px) {
@@ -605,7 +439,7 @@ height: 50% ;
     border: none;
   }
 
-  .positionAbsolue {
+  /* .positionAbsolue {
     top: 23%;
   }
 
@@ -627,7 +461,7 @@ height: 50% ;
   .carte,
   .les-cartes {
     width: 100%;
-  }
+  } */
 
   .container,
   .container-fluid,
@@ -636,7 +470,7 @@ height: 50% ;
   }
 }
 
-@media(max-width: 320px) {
+/* @media(max-width: 320px) {
 
    .grandeTaille button{
     height: 3rem;
@@ -645,4 +479,155 @@ height: 50% ;
     width: 15rem;
   }
 
+} */
+
+
+
+
+
+/* =========================================
+   Global & Utility Styles
+   ========================================= */
+body {
+    background-color: #f8f9fa; /* Light gray background to make white cards pop */
+    overflow-x: hidden; /* Prevents accidental horizontal scrolling */
+}
+
+/* Ensure images always fit their containers without distortion */
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* =========================================
+   Hero Section
+   ========================================= */
+.hero-img-container {
+    height: 65vh;
+    min-height: 400px;
+    background-color: #1a4a2e; /* Fallback green */
+    position: relative;
+}
+
+.hero-img-container img {
+    opacity: 0.6; /* Darkens image so white text is readable */
+}
+
+/* =========================================
+   Hover Reveal Cards (FAO, Météo, Formation)
+   ========================================= */
+.hover-card-wrapper .hidden-details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.hover-card-wrapper .card-img {
+    transition: transform 0.6s ease;
+}
+
+.hover-card-wrapper:hover .card-img {
+    transform: scale(1.05); /* Gentle zoom */
+}
+
+.hover-card-wrapper:hover .hidden-details {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 1rem;
+}
+
+.hover-card-wrapper {
+    /* 1. The Magic Mask: Hides any part of the image that grows outside the box */
+    overflow: hidden; 
+    
+    /* 2. Safari Bug Fix: Forces the browser to strictly respect the rounded corners */
+    border-radius: 1rem; /* This matches Bootstrap's 'rounded-4' */
+    
+    /* 3. Performance & Anti-Aliasing: Forces the browser to use the GPU. 
+       This keeps the animation perfectly smooth and prevents jagged, pixelated edges when rotating. */
+    transform: translateZ(0); 
+    mask-image: radial-gradient(white, black);
+    -webkit-mask-image: -webkit-radial-gradient(white, black); 
+}
+
+/* On mobile, we force the details to be visible since there is no "hover" state */
+@media (max-width: 768px) {
+    .hover-card-wrapper .hidden-details {
+        max-height: 200px;
+        opacity: 1;
+        margin-top: 1rem;
+    }
+}
+
+/* =========================================
+   Team Section Avatars
+   ========================================= */
+.team-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* =========================================
+   Custom Colors
+   ========================================= */
+.text-agritech {
+    color: rgb(6, 139, 73);
+}
+.bg-agritech {
+    background-color: rgb(6, 139, 73);
+}
+
+
+/* Make sure the transition is smooth */
+.hover-card-wrapper .card-img {
+    transition: transform 0.6s ease;
+    /* Optional: transform-origin controls where it rotates from. 
+       Center is default, but sometimes 'bottom' looks cool too. */
+    transform-origin: center; 
+}
+
+/* Add the rotation to the scale effect */
+.hover-card-wrapper:hover .card-img {
+    /* Adjust scale (1.1 = 10% bigger) and rotate (2deg) to your liking */
+    transform: scale(1.1) rotate(2deg);
+}
+
+/* =========================================
+   Mobile Card Overrides (max-width 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    /* 1. Hide the image completely */
+    .mobile-clean-card .card-img {
+        display: none !important;
+    }
+    
+    /* 2. Remove absolute positioning AND the p-3 floating gap */
+    .mobile-clean-card .card-img-overlay {
+        position: static !important;
+        padding: 0 !important; 
+    }
+
+    /* 3. Reset the inner white box so it acts like a normal card body */
+    .mobile-clean-card .bg-white {
+        border-radius: 1rem !important;
+        box-shadow: none !important; /* Removes the floating shadow */
+        border: 1px solid rgba(0,0,0,0.1); /* Adds a subtle border to define the card edge */
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* 4. Ensure details are always visible since mobile has no hover */
+    .mobile-clean-card .hidden-details {
+        max-height: 200px;
+        opacity: 1;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+  .row-cols-md-3>* {
+    flex: 0 0 auto;
+    width: auto !important;
+}
 }
