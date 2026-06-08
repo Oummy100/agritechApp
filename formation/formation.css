@@ -27,15 +27,6 @@
     width: 7rem;
 }
 
-.elargissement li i {
-  display: inline-block;
-  transition: transform 0.5s ease;
-}
-
-.elargissement li:hover i {
-  transform: translateX(7px);
-}
-
 .vert {
     color: rgb(45, 171, 104);
 }
@@ -89,7 +80,6 @@ button a {
     object-fit: cover;
 }
 
-
 @media (max-width: 425px) {
 
     .footerSection1 {
@@ -103,89 +93,6 @@ button a {
     }
 
 
-
-}
-
-
-@media (max-width: 768px) {
-
-    .footerSection1 {
-        flex-wrap: wrap;
-
-    }
-
-    .section2 {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .premier-element {
-        width: 100% !important;
-    }
-
-    .formation-image {
-        flex-wrap: wrap;
-    }
-
-
-.bgchange {
-    background-color: white;
-  }
-}
-
-@media (max-width: 1024px) {
-    nav p {
-        font-size: medium;
-    }
-
-    nav h1 {
-        font-size: medium;
-    }
-
-
-    nav a {
-        font-size: 1.5rem;
-    }
-
-    nav li {
-        font-size: 1.5rem;
-    }
-
-    nav i {
-        font-size: medium;
-    }
-
-
- .invisibles {
-        display: none;
-    }
-
-    .restruction {
-        width: 30rem;
-    }
-
-    .restruction i {
-        font-size: xx-large;
-    }
-
-    .restruction li {
-        align-items: center;
-    }
-
-    .restruction a {
-        font-size: 0.9rem !important;
-    }
-
-    .elargissement {
-        width: 30rem !important;
-        justify-content: space-between;
-        gap: 0;
-    }
-
-    .lesimage {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
 
 }
 

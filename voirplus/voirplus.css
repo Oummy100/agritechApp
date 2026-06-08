@@ -41,15 +41,6 @@ button a {
     background: rgba(79, 133, 106, 0.301);
 }
 
-.elargissement li i {
-    display: inline-block;
-    transition: transform 0.5s ease;
-}
-
-.elargissement li:hover i {
-    transform: translateX(7px);
-}
-
 
 footer {
     padding-top: 2rem;
@@ -130,56 +121,7 @@ footer .agritech {
 
 
 @media (max-width: 1024px) {
-    nav p {
-        font-size: medium;
-    }
-
-    nav h1 {
-        font-size: medium;
-    }
-
-    .secondPart {
-        justify-content: space-between;
-    }
-
-    .invisibles {
-        display: none;
-    }
-
-    nav a {
-        font-size: 1.5rem;
-    }
-
-    nav li {
-        font-size: 1.5rem;
-    }
-
-    nav i {
-        font-size: medium;
-    }
-
-    .restruction {
-        width: 30rem;
-    }
-
-    .restruction i {
-        font-size: xx-large;
-    }
-
-    .restruction li {
-        align-items: center;
-    }
-
-    .restruction a {
-        font-size: 0.9rem !important;
-    }
-
-    .elargissement {
-        width: 30rem !important;
-        justify-content: space-between;
-        gap: 0;
-    }
-
+    
     .lesimage {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -198,14 +140,6 @@ footer .agritech {
 @media (min-width: 1440px) {
     .custom-width {
         width: 75% !important;
-    }
-
-}
-
-
-@media (max-width: 768px) {
-    header nav {
-        background: rgb(186, 186, 186);
     }
 
 }
