@@ -237,6 +237,32 @@ nav h1 {
   .container-lg {
     overflow-x: hidden;
   }
+
+  .partenaires {
+    gap: 0 !important;
+  }
+
+  .navbar-toggler {
+   display: flex !important;
+   justify-content: end !important;
+  }
+
+
+  .bgchange{
+    background: rgb(246, 246, 246) !important;
+  }
+}
+
+@media (max-width: 375px) {
+
+.confident{
+  flex-direction: column !important;
+  gap: 1rem !important;
+}
+
+.partenaires {
+    gap: 1rem !important;
+  }
 }
 
 
