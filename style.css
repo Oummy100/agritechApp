@@ -119,6 +119,22 @@ button a {
   flex-grow: 0;
 }
 
+@media (max-width: 1440px) {
+
+nav h1 {
+    font-size: large;
+  }
+
+   .elargissement li{
+    font-size: 1.3rem !important;
+  }
+
+  .elargissement a{
+    font-size: 1.3rem !important;
+  }
+
+}
+
 @media (max-width: 1024px) {
 
   nav p {
@@ -126,7 +142,7 @@ button a {
   }
 
   nav h1 {
-    font-size: medium;
+    font-size: large;
   }
 
   nav a {
@@ -158,10 +174,23 @@ button a {
   }
 
   .elargissement {
-    width: 30rem;
+    width: 25rem;
     justify-content: space-between;
     gap: 0;
   }
+
+   .elargissement li{
+    font-size: 1.1rem !important;
+  }
+
+  .elargissement a{
+    font-size: 1.1rem !important;
+  }
+
+  .input-group{
+  width: 100%;
+  max-width: 15rem;
+}
 
 }
 
@@ -306,13 +335,34 @@ body {
     }
 
     nav .input-group{
+
+
+
       display: none !important;
     }
 
     nav .col-2{
      grid-column: span 4 !important;
-    font-size: large !important;
     }
+
+    nav h1 {
+    font-size: large;
+  }
+
+  .navh1{
+    width: 10rem;
+  }
+
+  nav button{
+    width: 10rem !important;
+  }
+  nav button a{
+    font-size: 1.2rem !important;
+  }
+
+  .elargissement {
+    width: 23rem !important;
+  }
 }
 
 /* =========================================
